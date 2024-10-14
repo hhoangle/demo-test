@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Suite All" verbose="1" parallel="methods" thread-count= "10">
+
+    <test name="Regression Test Parallel">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Demo.EcicsInforPage"/>
+            <class name="Demo.EcicsCar"/>
+            <class name="Demo.EcicsMaid"/>
+        </classes>
+    </test>
+
+</suite>

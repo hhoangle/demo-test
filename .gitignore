@@ -1,0 +1,7 @@
+.idea
+allure-results
+extentV5
+scriptLogs
+test-output/xml
+test-output/html
+screenshots

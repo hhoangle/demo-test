@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ECICS" parallel="classes">
+  <listeners>
+    <listener class-name="commons.MethodListener" />
+    <listener class-name="reportConfig.ReportNGListener" />
+    <listener class-name="reportConfig.ExtentTestListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+  <test name="Run On CHROME">
+	<parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="${env}"/>
+    <classes>
+      <class name="Demo.Dnse"/>
+    </classes>
+  </test>
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On CHROME"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.301">
+  <properties />
+  
+  
+            <testcase name="TC_0001_Get_share_link" time="4.301" classname="Demo.Dnse" />
+      
+</testsuite>

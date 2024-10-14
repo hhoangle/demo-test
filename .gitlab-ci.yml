@@ -1,0 +1,13 @@
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - mvn install
+
+test_job:
+  stage: test
+  script:
+    - mvn test
